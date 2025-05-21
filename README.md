@@ -1,6 +1,6 @@
-# 🧠 CLI Web Scraper for Book Website
+# 📘 CLI Book Scraper — Scrape, Sort, and Export Book Data from the Web
 
-> Web scraper for https://books.toscrape.com/ with CLI configurable options including filtering, sorting, and number of pages to scrape.
+> This is a powerful and flexible command-line web scraping tool for collecting and organizing book data from Books to Scrape. Designed with automation and data analysis in mind, this scraper collects details like titles, prices, ratings, and descriptions, with options to sort, filter, and export the results to CSV—all from your terminal.
 
 ---
 
@@ -19,7 +19,13 @@
 
 ## 📖 About
 
-This project is a CLI configurable web scraper that gathers a user inputted number of pages of book data, including title, price, rating, category, description, and URL. This data then has any applicable sorting and/or filtering applied to it based on the CLI arguments passed by the user. The data is summarized in the command line and exported to a CSV file. This exists as a practice project and showcase of my web scraping skills.
+This project is a CLI configurable web scraper that gathers a user inputted number of pages of book data, including title, price, rating, category, description, and URL. This data then has any applicable sorting and/or filtering applied to it based on the CLI arguments passed by the user. The data is summarized in the command line and exported to a CSV file. 
+
+### 🧠 Use Cases
+
+Quickly gather book metadata for cataloging or analysis
+
+Learn or demonstrate Python web scraping best practices
 
 ---
 
@@ -38,8 +44,13 @@ This project is a CLI configurable web scraper that gathers a user inputted numb
 ## 📸 Screenshots
 
 ![Command-line Input/Output](images/terminal_output.png)  
-![CSV Output](images/csv_output.png)
-![Excel Output](images/excel_output.png)
+*Example CLI output showing scrape and filter results*
+
+![CSV Output](images/csv_output.png)  
+*Exported CSV viewed in a text editor*
+
+![Excel Output](images/excel_output.png)  
+*Data viewed in Excel for analysis*
 
 ---
 
